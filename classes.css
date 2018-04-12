@@ -1,0 +1,69 @@
+.grid {
+  display: grid;
+}
+
+.three-columns {
+  grid-template-columns: auto auto auto;
+}
+
+#banner
+{
+  background: url(https://farm9.staticflickr.com/8888/18570532662_cb071d5a56_o_d.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://farm9.staticflickr.com/8888/18570532662_cb071d5a56_o_d.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://farm9.staticflickr.com/8888/18570532662_cb071d5a56_o_d.jpg', sizingMethod='scale');
+}
+
+.pill
+{
+  background-color: #555;
+  color:white;
+  padding:1em;
+  -webkit-border-radius: 1.5em;
+  -moz-border-radius: 1.5em;
+  border-radius: 1.5em;
+}
+
+.card
+{
+  text-align: center;
+  padding:1em;
+}
+
+.card-image
+{
+  background-color: #e5e5e5;
+  color:white;
+  padding:3em;
+  -webkit-border-radius: 20em;
+  -moz-border-radius: 20em;
+  border-radius: 20em;
+}
+
+.card-image > img
+{
+  height:1.5em;
+  width:1.5em;
+  vertical-align: middle;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+.card-header
+{
+  font-size: 1.4em;
+}
+
+.card-header, .card-body, .card-footer
+{
+  margin-top: 1em;
+}
+
+.card-footer
+{
+  border-top:0.0625em solid #ddd;
+  padding-top: 1em;
+}
