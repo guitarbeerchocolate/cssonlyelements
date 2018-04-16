@@ -33,7 +33,7 @@
   padding:1em;
 }
 
-.card-image
+.card > picture
 {
   background-color: #e5e5e5;
   color:white;
@@ -43,7 +43,7 @@
   border-radius: 20em;
 }
 
-.card-image > img
+.card > picture > img
 {
   height:1.5em;
   width:1.5em;
@@ -52,50 +52,55 @@
   margin-bottom:2em;
 }
 
-.card-header
+.card > header
 {
   font-size: 1.4em;
 }
 
-.card-header, .card-body, .card-footer
+.card > header, .card > .card-body, .card > footer
 {
   margin-top: 1em;
 }
 
-.card-footer
+.card > footer
 {
   border-top:0.0625em solid #ddd;
   padding-top: 1em;
 }
 
-.media-image
+.media > picture
 {
   float:left;
   width:33%;
 }
 
-.media-image > img
+.media  > picture > img
 {
   margin:0 auto;
   width:90%;
 }
 
-.media-header
+.media > article > header
 {
     font-size: 1.4em;
     margin-bottom:1em;
 }
 
-.media-footer
+.media > article > footer
 {
   margin-top: 1em;
   border-top:0.0625em solid #ddd;
   padding-top: 1em;
 }
 
-.media-body
+.media > article
 {
   float:right;
   width:66%;
   overflow: hidden;
+}
+
+.media > article > .media-body
+{
+  padding-right:1em;
 }
